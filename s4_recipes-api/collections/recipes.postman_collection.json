@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "7612b2f6-e146-4554-8cb2-c81e68cab7a6",
+		"name": "recipes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/s4_recipes-api/api/recipes/2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/s4_recipes-api/api/recipes/2?",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"s4_recipes-api",
+						"api",
+						"recipes",
+						"2"
+					],
+					"query": [
+						{
+							"key": "booksId",
+							"value": "21",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
