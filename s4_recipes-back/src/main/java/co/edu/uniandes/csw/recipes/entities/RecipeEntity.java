@@ -15,7 +15,17 @@ import javax.persistence.Entity;
 public class RecipeEntity extends BaseEntity {
     private String name;
     private String description;
+
+    public IngredientEntity getIngredient() {
+        return ingredient;
+    }
+
+    public void setIngredient(IngredientEntity ingredient) {
+        this.ingredient = ingredient;
+    }
     
+    
+    private IngredientEntity ingredient;
     public RecipeEntity(){
     
     }
